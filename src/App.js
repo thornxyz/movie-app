@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes,Route  } from 'react-router-dom';
+import { HashRouter, Routes,Route  } from 'react-router-dom';
 import NavbarWrapper from './NavbarWrapper';
 
 import Home from './pages/home';
@@ -13,7 +13,7 @@ import Phase4Page from './pages/phases/phase4';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavbarWrapper>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path="/phase4" element={<Phase4Page />} />
         </Routes>
       </NavbarWrapper>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

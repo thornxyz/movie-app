@@ -2,7 +2,7 @@
   "name": "movieapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thornxxx.github.io",
+  "homepage": "https://thornxxx.github.io/movie-app",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@testing-library/jest-dom": "^5.17.0",
