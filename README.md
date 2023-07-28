@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This website has been hosted on https://thornxxx.github.io/movie-app/
+-----This website has been hosted on https://thornxxx.github.io/movie-app/ -----
 
 ## Available Scripts
 
