@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movie-app/static/css/main.f091f0ff.css",
-    "main.js": "/movie-app/static/js/main.fda21c0e.js",
+    "main.js": "/movie-app/static/js/main.fa828031.js",
     "static/media/ticket.jpg": "/movie-app/static/media/ticket.ff36812302ed0ba4981a.jpg",
     "static/media/blackwidow.jpg": "/movie-app/static/media/blackwidow.5f5686b1a53c6e87308c.jpg",
     "static/media/blackpanther.jpeg": "/movie-app/static/media/blackpanther.724b80e44f20bbce6ccd.jpeg",
@@ -42,10 +42,10 @@
     "static/media/phase3.jpg": "/movie-app/static/media/phase3.63f7c04b2882623ab530.jpg",
     "index.html": "/movie-app/index.html",
     "main.f091f0ff.css.map": "/movie-app/static/css/main.f091f0ff.css.map",
-    "main.fda21c0e.js.map": "/movie-app/static/js/main.fda21c0e.js.map"
+    "main.fa828031.js.map": "/movie-app/static/js/main.fa828031.js.map"
   },
   "entrypoints": [
     "static/css/main.f091f0ff.css",
-    "static/js/main.fda21c0e.js"
+    "static/js/main.fa828031.js"
   ]
 }
