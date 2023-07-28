@@ -1,0 +1,292 @@
+body {
+  background-color: rgb(16, 16, 16);
+  margin: 0 auto; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu,
+.scanner {
+  position: absolute;
+  color: #000000;
+}
+
+.menu {
+  top: 10px;
+  left: 10px;
+  padding-left: 5px;
+  font-size: 2em;
+}
+
+.scanner {
+  top: 10px;
+  right: 10px;
+  padding-right: 5px;
+  font-size: 2.5em;
+}
+
+.searchtext h4 {
+  font-size: 23px;
+  color: #d8464f;
+  margin-bottom: 5px;
+  font-family: 'Roboto', Cambria;
+  align-items: center;
+}
+
+.popular-text h4,
+.comingsoon-text h4,
+.mustwatch-text h4 {
+  font-size: 20px;
+  color: #d8464f;
+  font-family: 'Roboto', Cambria;
+  text-align: left;
+  margin-left: 35px;
+  margin-bottom: 5px;
+}
+
+.popular-text h4{
+  padding-top: 5px;
+}
+
+.blackpanther,
+.doctorstrange,
+.agatha,
+.wandavision,
+.blackwidow,
+.msmarvel {
+  height: 39.9vw;
+  width: 30vw;
+  max-width: 200px;
+  max-height: 266px;
+  border-radius: 16px;
+}
+
+
+.container {
+  align-items: center;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container img {
+  margin: 15px;
+  max-width: 306.67px;
+  max-height: 230px;
+  border-radius: 16px;
+}
+
+.search-bar {
+  flex: 1; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  padding: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: rgb(40,40,40);
+}
+
+.search-icon,
+.camera {
+  color: #000000;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.search-input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.search-input {
+  flex: 1;
+  padding: 5px 8px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  background-color: rgb(40,40,40);
+  color: #dddbdb;
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .firstrow,
+.secondrow,
+.thirdrow{
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+  .menu{
+    padding-left: 50px;
+    padding-top: 5px;
+  }
+  .scanner{
+    padding-top: 5px;
+    padding-right: 50px;
+  }
+
+  .menu-bars{
+    padding-left: 40px;
+  }
+
+  .popular-text h4,
+  .comingsoon-text h4,
+  .mustwatch-text h4 {
+    margin-left: 200px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .menu,
+  .scanner {
+    font-size: 1.9em;
+    margin-top: 2px;
+  }
+  .menu{
+    margin-left: 5px;
+  }
+  .scanner{
+    margin-left: 5px;
+  }
+
+  .searchtext h4 {
+    font-size: 21px;
+  }
+
+  .popular-text h4,
+  .comingsoon-text h4,
+  .mustwatch-text h4 {
+    font-size: 18px;
+  }
+
+
+  .search-bar {
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+}
+
+.firstrow,
+.secondrow,
+.thirdrow{
+display: flex;
+justify-content: space-evenly;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.navbar-toggle{
+  background-color: rgb(40,40,40);
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-menu-items{
+  width: 100%;
+}
+
+.nav-menu{
+  background-color: rgb(40,40,40);
+  width: 65vw;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  transition: 850ms;
+  left: -100%;
+  z-index: 1;
+}
+
+.nav-menu.active{
+  left: 0;
+  transition: 350ms;
+}
+
+.menu-bars{
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 1.7em;
+  font-weight: bolder;
+  background: none;
+}
+
+.wanda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wanda-pic-wrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./images/wanda.jpg); 
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+
+.phases {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.phase1,
+.phase2,
+.phase3,
+.phase4 {
+  position: relative;
+}
+
+.close {
+  margin-top: 30px;
+  background-color: #d8464f;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1em;
+  color: #dddbdb;
+  font-family: 'Roboto', Cambria;
+  border-radius: 16px;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 1em;
+  font-family: 'Roboto', Cambria;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
